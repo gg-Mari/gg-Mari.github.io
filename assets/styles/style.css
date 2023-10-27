@@ -7,11 +7,11 @@
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Oswald', sans-serif
+  font-family: 'Oswald', sans-serif;
 }
 
 p {
-  font-family: 'Raleway', sans-serif
+  font-family: 'Raleway', sans-serif;
 }
 
 .wrapper {
@@ -45,7 +45,7 @@ p {
   padding-top: 1em;
 }
 
-.nav ul li{
+.nav ul li {
   display: inline-block;
   margin-left: 1em;
 }
@@ -57,7 +57,7 @@ p {
   text-decoration: none;
 }
 
-/* (2) Banner Area*/
+/* (2) Banner Area */
 .banner {
   background-image: url('../images/banner-bg.jpg');
   background-size: cover;
@@ -79,11 +79,14 @@ p {
   color: #c7a17a;
   font-size: 4em;
   text-transform: uppercase;
-
 }
 
 .banner-text h2 span {
   color: #96746b;
+}
+
+.banner-text p {
+  color: #fff;
 }
 
 .banner a {
@@ -97,11 +100,7 @@ p {
     margin-top: 1em;
 }
 
-.banner-text p {
-  color: #fff;
-}
-
-/* (3) Ads Area*/
+/* (3) Ads Area */
 .ads {
   width: 85%;
   margin: 4em auto;
@@ -120,11 +119,11 @@ p {
 
 .ads-item1 {
   margin-right: 3%;
-  background-image: url(../images/ads-img1.jpg);
+  background-image: url('../images/ads-img1.jpg');
 }
 
 .ads-item2 {
-  background-image: url(../images/ads-img2.jpg);
+  background-image: url('../images/ads-img2.jpg');
 }
 
 .ads-text {
@@ -144,7 +143,7 @@ p {
 }
 
 .ads-text a {
-  display: black;
+  display: block;
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   color: #fff;
@@ -220,7 +219,7 @@ p {
   width: 85%;
   height: 350px;
   margin: 4em auto;
-  background-image: url(../images/discount-img.jpg);
+  background-image: url('../images/discount-img.jpg');
   background-size: cover;
   background-position: center;
   position: relative;
@@ -256,11 +255,12 @@ p {
   background-color: #ffffff80;
   color: #312a26;
   font-family: 'Raleway', sans-serif;
+  font-weight: 700;
   margin-top: 1em;
 }
 
 /* (6) Merchandise Sale Area */
-.merch-sale {
+.merch {
   width: 85%;
   margin: 4em auto;
   overflow: auto;
@@ -294,21 +294,21 @@ p {
   overflow: auto;
 }
 
-.merch-sale-items {
+.merch-items {
   width: 24.25%;
   float: left;
   margin-right: 1%;
   margin-bottom: 1%;
 }
 
-.merch-sale-items img {
+.merch-items img {
   width: 100%;
   height: 350px;
   object-fit: cover;
 }
 
 
-.merch-sale-items:nth-child(4) {
+.merch-items:nth-child(4) {
   margin-right: 0;
 }
 
@@ -457,6 +457,14 @@ form input[type="submit"] {
 }
 
 /* (9) Footer */
+.footer {
+  background-image: url('../images/footer-img.jpg');
+  background-size: cover;
+  background-position: center;
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
 .footer-contents {
   width: 85%;
   margin: auto;
@@ -490,24 +498,8 @@ form input[type="submit"] {
   margin-right: 0;
 }
 
-.footer {
-  background-image: url('../images/footer-img.jpg');
-  background-size: cover;
-  background-position: center;
-  padding-top: 2em;
-  padding-bottom: 2em;
-  font-family: 'Oswald', sans-serif;
-  color: #fff;
-}
-
 .footer-form * {
   width: auto;
-}
-
-form input[type="search"] {
-  background-color: #c7a17a;
-  font-weight: 700;
-  text-transform: uppercase;
 }
 
 .footer td, th {
@@ -535,5 +527,4 @@ form input[type="search"] {
 
 .social-widgets img {
   width: 1.5em;
-  object-fit: cover;
 }
